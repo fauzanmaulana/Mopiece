@@ -16,9 +16,9 @@ class Listfilm extends HTMLElement{
         this._films.forEach(film => {
             const filmItemElment = document.createElement('list-film')
             console.log(filmItemElment.film)
-            // filmItemElment.className = "bg-danger"
-            // filmItemElment.film = film
-            // this.appendChild(filmItemElment)
+            filmItemElment.className = "bg-danger"
+            filmItemElment.film = film
+            this.appendChild(filmItemElment)
         })
     }
 }
