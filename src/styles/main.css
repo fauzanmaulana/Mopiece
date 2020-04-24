@@ -5,7 +5,7 @@
 }
 
 body{
-    background: rgb(34,34,34);
+    /* background: rgb(34,34,34); */
 }
 
 nav-bar{background: rgb(34,34,34);}
@@ -21,6 +21,7 @@ nav-bar{background: rgb(34,34,34);}
 .spacer-list{
     height: 50vh;
     width: 100%;
+    height: 300px;
 }
 
 .trailer{
@@ -36,10 +37,12 @@ nav-bar{background: rgb(34,34,34);}
 
 .spacer-nav{height: 8vh;}
 
-/* .list{
-    margin-left: 70px;
+/* .list-film{
+    width: 185px;
 } */
 
-.list-film{
+/* list-film{
+    display: block;
     width: 185px;
-}
+    height: 200px;
+} */
