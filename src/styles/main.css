@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    /* background: rgb(34,34,34); */
-}
-
-nav-bar{background: rgb(34,34,34);}
+body{background: rgb(34,34,34)}
 
 .jumbotron{
     position: fixed;
@@ -37,12 +33,18 @@ nav-bar{background: rgb(34,34,34);}
 
 .spacer-nav{height: 8vh;}
 
-/* .list-film{
-    width: 185px;
-} */
+film-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 0 4%;
+}
 
-/* list-film{
-    display: block;
-    width: 185px;
-    height: 200px;
-} */
+film-item{
+    width: 130px;
+}
+
+film-item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    transition: 0.3s;
+}
